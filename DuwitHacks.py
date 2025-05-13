@@ -12,7 +12,7 @@ def sort_data():
     latLst = []
     longLst = []
 
-    file = open('DuwitHacks Hackathon/GSFC.glb.200204_202410_RL06v2.0_OBP-ICE6GD/Mascon_placement_file_gen6.txt', 'r')
+    file = open('Mascon_placement_file_gen6.txt', 'r')
     allLines = file.readlines() # All the lines in the file
 
     numOfPoints = 41168 # (All data points)
