@@ -12,7 +12,7 @@ def sort_data():
     latLst = []
     longLst = []
 
-    file = open('Mascon_placement_file_gen6.txt', 'r')
+    file = open('ChessieD/DUWiT-Hacks-2025-mascons/Mascon_placement_file_gen6.txt', 'r')
     allLines = file.readlines() # All the lines in the file
 
     numOfPoints = 41168 # (All data points)
